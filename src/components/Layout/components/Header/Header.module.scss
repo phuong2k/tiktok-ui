@@ -19,8 +19,17 @@
 
 .logo {
 }
-.search {
+.search,
+.search-result {
     width: 361px;
+}
+.search-title {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+}
+.search {
     height: var(--search-height);
     background: rgba(22, 24, 35, 0.06);
     border-radius: 92px;
@@ -55,6 +64,7 @@
         border: 1.5px solid rgba(22, 24, 35, 0.2);
     }
 }
+
 .clear,
 .loading {
     position: absolute;
